@@ -1,14 +1,22 @@
 {
-    "name": "hkdf.js",
+    "name": "sodium-hkdf",
     "version": "1.0.0",
+    "description": "HMAC-based Key Derivation Function (HKDF) using libsodium",
     "main": "lib/HKDF",
     "types": "lib/HKDF",
-    "repository": "git@github.com:AnbionApps/hkdf.js.git",
-    "author": "TICE <contact@ticeapp.com>",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/TICESoftware/hkdf.js.git"
+    },
+    "author": {
+        "name": "TICE Software UG (haftungsbeschraenkt)",
+        "email": "contact@ticeapp.com",
+        "url": "https://tice.software"
+    },
     "license": "MIT",
-    "private": true,
     "scripts": {
-        "test": "jest"
+        "test": "jest",
+        "build": "tsc --build"
     },
     "dependencies": {
         "libsodium-wrappers": "^0.7.6",
