@@ -1,6 +1,6 @@
 {
     "name": "sodium-hkdf",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "HMAC-based Key Derivation Function (HKDF) using libsodium",
     "main": "lib/HKDF",
     "types": "lib/HKDF",
